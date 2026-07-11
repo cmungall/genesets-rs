@@ -21,8 +21,9 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Eight DEG modules across six studies, spanning melanoma, glioblastoma, diabetic
-cardiomyopathy and Tfh-cell regulation, in both human and mouse.
+Thirteen DEG modules across eight studies, spanning melanoma, glioblastoma,
+diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, and pancreatic cancer,
+in both human and mouse.
 
 **PMC10202813 melanoma modules** — one study whose DEGs the benchmark splits into
 modules, linked as `SERIES:CGSA_PMC10202813_MODULES` to show that distinct modules
@@ -49,6 +50,22 @@ of one study resolve to **contrasting** GO interpretations:
 | `CGSA_PMID30017245_MELANOMA_MITOSIS` | mitotic cell cycle | 12/12 canonical mitotic markers (CDK1/CCNB1/AURKB/PLK1/…) |
 | `CGSA_PMC8831505_1_TFH_HYPOXIA` | hypoxia + glycolysis | HIF/glycolytic block (Slc2a1/Ldha/Hk2/Pdk1/Bnip3) in Tfh cells |
 | `CGSA_PMC10761883_2_DIABETIC_CM_HIF` | hypoxia/HIF + PPAR/lipid | HIF targets (Bnip3/Adm/Angptl4/Vegfa) + glycolysis; KEGG "HIF-1 signaling" → GO response to hypoxia |
+| `CGSA_PMC10156590_2_PANC_GOLGI` | ER–Golgi vesicle transport | COPI coatomer (Copb1/Copb2/Copg1) + Arf1/Rab1a; pancreatic cancer |
+
+**PMC10772820 NASH-liver modules** — one mouse steatohepatitis study split into
+four KEGG modules, linked as `SERIES:CGSA_PMC10772820_MODULES`:
+
+| set | series_role | defining biology | grounding note |
+|-----|-------------|------------------|----------------|
+| `CGSA_PMC10772820_1_NASH_COMPLEMENT` | complement_coagulation | complement + coagulation cascade | hepatic C3/Cfb + F2/Fga/Fgb/Fgg/Plg |
+| `CGSA_PMC10772820_3_NASH_RIBOSOME` | ribosome_translation | cytoplasmic translation | 12/12 Rpl/Rps; KEGG "Parkinson/Huntington/OXPHOS" ground truth recorded as `false_association` artifacts |
+| `CGSA_PMC10772820_2_NASH_ECM` | ecm_fibrosis | ECM organization / fibrosis | Col1a1/Col4a1/Col6a1 + Lama2/Lamb1 |
+| `CGSA_PMC10772820_5_NASH_CHEMOKINE` | chemokine_inflammation | chemokine signaling / inflammation | Ccl2/Ccl4/Ccl5/Cxcl9/Ccr2 |
+
+The NASH ribosome module is a second instructive case (alongside GBM_STRESS): its
+ground truth includes KEGG neurodegeneration/OXPHOS disease pathways that merely
+re-list ribosomal and mitochondrial genes — recorded as `false_association`, not
+curated as disease biology present in a liver DEG set.
 
 Several modules were chosen precisely because they are **mixed** DEG clusters:
 they exercise the membership-grounding rule (the paper's top ground-truth term
