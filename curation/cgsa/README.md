@@ -21,10 +21,12 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-A single melanoma study (PMC10202813), whose DEGs the benchmark splits into
-modules, is the first demonstration. Three modules are curated and linked as
-`SERIES:CGSA_PMC10202813_MODULES` to show that distinct modules of one study
-resolve to **contrasting** GO interpretations:
+Eight DEG modules across six studies, spanning melanoma, glioblastoma, diabetic
+cardiomyopathy and Tfh-cell regulation, in both human and mouse.
+
+**PMC10202813 melanoma modules** — one study whose DEGs the benchmark splits into
+modules, linked as `SERIES:CGSA_PMC10202813_MODULES` to show that distinct modules
+of one study resolve to **contrasting** GO interpretations:
 
 | set | series_role | defining biology | grounding note |
 |-----|-------------|------------------|----------------|
@@ -32,10 +34,38 @@ resolve to **contrasting** GO interpretations:
 | `CGSA_PMC10202813_6_PIGMENT` | pigmentation_and_proliferation | melanin biosynthesis + melanosome | pigment core is **thin** (OCA2), co-mixed with a proliferation signal (CDC45/AURKB/PBK) |
 | `CGSA_PMC10202813_2_SENESCENCE` | senescence_and_immune | cellular senescence + T-cell activation | two coherent arms (CDKN2A/TP53; PTPRC/TIGIT/SELL) plus melanoma drivers |
 
-The pigment and senescence modules were chosen precisely because they are
-**mixed** DEG clusters: they exercise the membership-grounding rule (the paper's
-top ground-truth term can be carried by very few set members), which is exactly
-the within-cluster heterogeneity cGSA's community detection is built to handle.
+**PMC9232499 glioblastoma modules** — paired arms of one study, linked as
+`SERIES:CGSA_PMC9232499_MODULES`:
+
+| set | series_role | defining biology | grounding note |
+|-----|-------------|------------------|----------------|
+| `CGSA_PMC9232499_1_GBM_MIGRATION` | migration_ecm | cell migration + ECM remodeling | clean (Mmp9/Mmp10/Col1a1/Adamts2/Cyr61) |
+| `CGSA_PMC9232499_2_GBM_STRESS` | stress_defense | innate/IFN defense response | GT's broad "response to stress" recorded `nonspecific`; the informative arm is Gbp1/Ciita/Fgl2 |
+
+**Standalone modules:**
+
+| set | defining biology | grounding note |
+|-----|------------------|----------------|
+| `CGSA_PMID30017245_MELANOMA_MITOSIS` | mitotic cell cycle | 12/12 canonical mitotic markers (CDK1/CCNB1/AURKB/PLK1/…) |
+| `CGSA_PMC8831505_1_TFH_HYPOXIA` | hypoxia + glycolysis | HIF/glycolytic block (Slc2a1/Ldha/Hk2/Pdk1/Bnip3) in Tfh cells |
+| `CGSA_PMC10761883_2_DIABETIC_CM_HIF` | hypoxia/HIF + PPAR/lipid | HIF targets (Bnip3/Adm/Angptl4/Vegfa) + glycolysis; KEGG "HIF-1 signaling" → GO response to hypoxia |
+
+Several modules were chosen precisely because they are **mixed** DEG clusters:
+they exercise the membership-grounding rule (the paper's top ground-truth term
+can be carried by very few set members), which is the within-cluster heterogeneity
+cGSA's community detection is built to handle.
+
+### Curation caveat: ground-truth vs membership mismatch
+
+Not every benchmark set is curatable. Several sets' paper-derived ground-truth
+pathways do **not** match their released DEG membership — e.g. `PMC11285963-1`
+(pancreatic cancer) carries an epithelial/tumor membership (KRT/CEACAM/MUC1) but
+its ground truth is entirely immune (T-cell activation, neutrophil
+degranulation), and the two rheumatoid-arthritis lymphocyte sets list B-/T-cell
+ground truth while only 1–2 canonical lymphocyte markers are actually present.
+Curating those against the ground truth would violate the ground-in-membership
+rule, so they are **skipped**. Every set here was screened for marker support
+before curation.
 
 ## Why isolated from `curation/genesets/`
 
