@@ -1,0 +1,1100 @@
+{
+  "\"Positive Regulation Of Response To External Stimulus\"": {
+    "exact": true,
+    "id": "GO:0032103",
+    "label": "positive regulation of response to external stimulus",
+    "obsolete": false
+  },
+  "\"Regulation Of Tumor Necrosis Factor Superfamily Cytokine Production\"": {
+    "exact": true,
+    "id": "GO:1903555",
+    "label": "regulation of tumor necrosis factor superfamily cytokine production",
+    "obsolete": false
+  },
+  "\"Tumor Necrosis Factor Superfamily Cytokine Production\"": {
+    "exact": true,
+    "id": "GO:0071706",
+    "label": "tumor necrosis factor superfamily cytokine production",
+    "obsolete": false
+  },
+  "AGE-RAGE signaling pathway in diabetic complications": null,
+  "Actin cytoskeleton organization": {
+    "exact": true,
+    "id": "GO:0030036",
+    "label": "actin cytoskeleton organization",
+    "obsolete": false
+  },
+  "Amoebiasis": null,
+  "Amphotamine addiction": null,
+  "Angiogenesis": {
+    "exact": false,
+    "id": "GO:1903588",
+    "label": "negative regulation of blood vessel endothelial cell proliferation involved in sprouting angiogenesis",
+    "obsolete": false
+  },
+  "Arachidonic acid metabolism": {
+    "exact": false,
+    "id": "GO:0002538",
+    "label": "arachidonate metabolite production involved in inflammatory response",
+    "obsolete": false
+  },
+  "Axon development": {
+    "exact": true,
+    "id": "GO:0061564",
+    "label": "axon development",
+    "obsolete": false
+  },
+  "Axon guidance": {
+    "exact": false,
+    "id": "GO:1905813",
+    "label": "negative regulation of motor neuron axon guidance",
+    "obsolete": false
+  },
+  "Calcium signaling pathway": {
+    "exact": false,
+    "id": "GO:0007223",
+    "label": "Wnt signaling pathway, calcium modulating pathway",
+    "obsolete": false
+  },
+  "Cell Chemotaxis": {
+    "exact": false,
+    "id": "GO:0071673",
+    "label": "positive regulation of smooth muscle cell chemotaxis",
+    "obsolete": false
+  },
+  "Cell adhesion molecules": {
+    "exact": false,
+    "id": "GO:0050839",
+    "label": "cell adhesion molecule binding",
+    "obsolete": false
+  },
+  "Cell migration": {
+    "exact": false,
+    "id": "GO:1904236",
+    "label": "negative regulation of substrate-dependent cell migration, cell attachment to substrate",
+    "obsolete": false
+  },
+  "Cell morphogenesis": {
+    "exact": true,
+    "id": "GO:0000902",
+    "label": "cell morphogenesis",
+    "obsolete": false
+  },
+  "Cell projection organization": {
+    "exact": true,
+    "id": "GO:0030030",
+    "label": "cell projection organization",
+    "obsolete": false
+  },
+  "Cell-cell adhension": null,
+  "Chagas disease": null,
+  "Chemotaxis": {
+    "exact": false,
+    "id": "GO:0002690",
+    "label": "positive regulation of leukocyte chemotaxis",
+    "obsolete": false
+  },
+  "Complment and coagulation cascades": null,
+  "Cytokine-cytokine receptor interaction": {
+    "exact": false,
+    "id": "GO:0005125",
+    "label": "cytokine activity",
+    "obsolete": false
+  },
+  "Cytoskeleton organization": {
+    "exact": true,
+    "id": "GO:0007010",
+    "label": "cytoskeleton organization",
+    "obsolete": false
+  },
+  "DNA geometric change": {
+    "exact": true,
+    "id": "GO:0032392",
+    "label": "DNA geometric change",
+    "obsolete": false
+  },
+  "DNA metabolic process": {
+    "exact": true,
+    "id": "GO:0006259",
+    "label": "DNA metabolic process",
+    "obsolete": false
+  },
+  "DNA repair": {
+    "exact": true,
+    "id": "GO:0006281",
+    "label": "DNA repair",
+    "obsolete": false
+  },
+  "Dendritic spine development": {
+    "exact": true,
+    "id": "GO:0060996",
+    "label": "dendritic spine development",
+    "obsolete": false
+  },
+  "ECM-receptor interaction": null,
+  "ER overload response": {
+    "exact": true,
+    "id": "GO:0006983",
+    "label": "ER overload response",
+    "obsolete": false
+  },
+  "Embryo development": {
+    "exact": true,
+    "id": "GO:0009790",
+    "label": "embryo development",
+    "obsolete": false
+  },
+  "ErbB signaling pathway": {
+    "exact": true,
+    "id": "GO:0038127",
+    "label": "ERBB signaling pathway",
+    "obsolete": false
+  },
+  "Estrogen signaling pathway": {
+    "exact": false,
+    "id": "GO:0030520",
+    "label": "estrogen receptor signaling pathway",
+    "obsolete": false
+  },
+  "Fluid shear stress and atherosclerosis": {
+    "exact": false,
+    "id": "GO:0097702",
+    "label": "response to oscillatory fluid shear stress",
+    "obsolete": false
+  },
+  "Focal adhesion": {
+    "exact": true,
+    "id": "GO:0005925",
+    "label": "focal adhesion",
+    "obsolete": false
+  },
+  "Golgi vesicle transport": {
+    "exact": true,
+    "id": "GO:0048193",
+    "label": "Golgi vesicle transport",
+    "obsolete": false
+  },
+  "Granulocyte Chemotaxis": {
+    "exact": true,
+    "id": "GO:0071621",
+    "label": "granulocyte chemotaxis",
+    "obsolete": false
+  },
+  "Granulocyte Migration": {
+    "exact": true,
+    "id": "GO:0097530",
+    "label": "granulocyte migration",
+    "obsolete": false
+  },
+  "Histidine metabolism": {
+    "exact": false,
+    "id": "GO:0052699",
+    "label": "ergothioneine biosynthetic process",
+    "obsolete": false
+  },
+  "Inflammatory mediator regulation of TRP channels": null,
+  "Interleukin-6 Production": {
+    "exact": true,
+    "id": "GO:0032635",
+    "label": "interleukin-6 production",
+    "obsolete": false
+  },
+  "Intracellular signaling transduction": {
+    "exact": false,
+    "id": "GO:1902533",
+    "label": "positive regulation of intracellular signal transduction",
+    "obsolete": false
+  },
+  "Leukocyte Chemotaxis": {
+    "exact": true,
+    "id": "GO:0030595",
+    "label": "leukocyte chemotaxis",
+    "obsolete": false
+  },
+  "Leukocyte Migration": {
+    "exact": true,
+    "id": "GO:0050900",
+    "label": "leukocyte migration",
+    "obsolete": false
+  },
+  "Lipid and atherosclerosis": null,
+  "Lipid storage": {
+    "exact": true,
+    "id": "GO:0019915",
+    "label": "lipid storage",
+    "obsolete": false
+  },
+  "MAPK signaling pathway": {
+    "exact": false,
+    "id": "GO:0051403",
+    "label": "stress-activated MAPK cascade",
+    "obsolete": false
+  },
+  "Malaria": {
+    "exact": false,
+    "id": "NCBITaxon:5833",
+    "label": "Plasmodium falciparum",
+    "obsolete": false
+  },
+  "Methylation": {
+    "exact": false,
+    "id": "GO:1902323",
+    "label": "negative regulation of methyl-branched fatty acid biosynthetic process",
+    "obsolete": false
+  },
+  "Myeloid Leukocyte Activation": {
+    "exact": true,
+    "id": "GO:0002274",
+    "label": "myeloid leukocyte activation",
+    "obsolete": false
+  },
+  "Myeloid Leukocyte Migration": {
+    "exact": true,
+    "id": "GO:0097529",
+    "label": "myeloid leukocyte migration",
+    "obsolete": false
+  },
+  "Negative regulation of cell proliferation": {
+    "exact": false,
+    "id": "GO:0051141",
+    "label": "negative regulation of NK T cell proliferation",
+    "obsolete": false
+  },
+  "Neutrophil Migration": {
+    "exact": true,
+    "id": "GO:1990266",
+    "label": "neutrophil migration",
+    "obsolete": false
+  },
+  "Ovulation cycle process": {
+    "exact": true,
+    "id": "GO:0022602",
+    "label": "ovulation cycle process",
+    "obsolete": false
+  },
+  "PI3K-Akt signaling pathway": {
+    "exact": false,
+    "id": "GO:0043491",
+    "label": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+    "obsolete": false
+  },
+  "Pathways in cancer": {
+    "exact": false,
+    "id": "GO:0044598",
+    "label": "doxorubicin metabolic process",
+    "obsolete": false
+  },
+  "Peptidyl-lysine trimethylation": {
+    "exact": true,
+    "id": "GO:0018023",
+    "label": "peptidyl-lysine trimethylation",
+    "obsolete": false
+  },
+  "Pertussis": null,
+  "Phospholipase D signaling pathway": {
+    "exact": false,
+    "id": "GO:1900737",
+    "label": "negative regulation of phospholipase C-activating G protein-coupled receptor signaling pathway",
+    "obsolete": false
+  },
+  "Phosphorylation": {
+    "exact": false,
+    "id": "GO:0042531",
+    "label": "positive regulation of tyrosine phosphorylation of STAT protein",
+    "obsolete": false
+  },
+  "Plasma membrane bounded cell projection organization": {
+    "exact": true,
+    "id": "GO:0120036",
+    "label": "plasma membrane bounded cell projection organization",
+    "obsolete": false
+  },
+  "Positive Regulation Of Cytokine Production": {
+    "exact": true,
+    "id": "GO:0001819",
+    "label": "positive regulation of cytokine production",
+    "obsolete": false
+  },
+  "Positive regulation of RNA biosynthetic process": {
+    "exact": true,
+    "id": "GO:1902680",
+    "label": "positive regulation of RNA biosynthetic process",
+    "obsolete": false
+  },
+  "Positive regulation of RNA metabolic process": {
+    "exact": true,
+    "id": "GO:0051254",
+    "label": "positive regulation of RNA metabolic process",
+    "obsolete": false
+  },
+  "Positive regulation of inflammatory response": {
+    "exact": true,
+    "id": "GO:0050729",
+    "label": "positive regulation of inflammatory response",
+    "obsolete": false
+  },
+  "Positive regulation of nucleic acid-templated transcription": null,
+  "Positive regulation of transcription by RNA polymerase II": {
+    "exact": true,
+    "id": "GO:0045944",
+    "label": "positive regulation of transcription by RNA polymerase II",
+    "obsolete": false
+  },
+  "Positive regulation of transcription, DNA-templated": {
+    "exact": false,
+    "id": "GO:2000144",
+    "label": "positive regulation of DNA-templated transcription initiation",
+    "obsolete": false
+  },
+  "Protein phoshorylation": null,
+  "Proteoglycans in cancer": null,
+  "RNA splicing": {
+    "exact": true,
+    "id": "GO:0008380",
+    "label": "RNA splicing",
+    "obsolete": false
+  },
+  "Ras signaling pathway": {
+    "exact": false,
+    "id": "GO:0071521",
+    "label": "Cdc42 GTPase complex",
+    "obsolete": false
+  },
+  "Regulation Of Cell Activation": {
+    "exact": true,
+    "id": "GO:0050865",
+    "label": "regulation of cell activation",
+    "obsolete": false
+  },
+  "Regulation Of Inflammatory Response": {
+    "exact": true,
+    "id": "GO:0050727",
+    "label": "regulation of inflammatory response",
+    "obsolete": false
+  },
+  "Regulation Of Leukocyte Activation": {
+    "exact": true,
+    "id": "GO:0002694",
+    "label": "regulation of leukocyte activation",
+    "obsolete": false
+  },
+  "Regulation of ion transmembrane transport": {
+    "exact": false,
+    "id": "GO:0034767",
+    "label": "positive regulation of monoatomic ion transmembrane transport",
+    "obsolete": false
+  },
+  "Regulation of membrane potential": {
+    "exact": true,
+    "id": "GO:0042391",
+    "label": "regulation of membrane potential",
+    "obsolete": false
+  },
+  "Regulation of synapse organiztion": null,
+  "Regulation of synapse structure or activity": {
+    "exact": true,
+    "id": "GO:0050803",
+    "label": "regulation of synapse structure or activity",
+    "obsolete": false
+  },
+  "Response To Bacterium": {
+    "exact": true,
+    "id": "GO:0009617",
+    "label": "response to bacterium",
+    "obsolete": false
+  },
+  "Response To Molecule Of Bacterial Origin": {
+    "exact": true,
+    "id": "GO:0002237",
+    "label": "response to molecule of bacterial origin",
+    "obsolete": false
+  },
+  "Rheumatoid arthritis": {
+    "exact": false,
+    "id": "UBERON:0003695",
+    "label": "metacarpophalangeal joint",
+    "obsolete": false
+  },
+  "Rho protein signal transduction": {
+    "exact": true,
+    "id": "GO:0007266",
+    "label": "Rho protein signal transduction",
+    "obsolete": false
+  },
+  "Startle response": {
+    "exact": true,
+    "id": "GO:0001964",
+    "label": "startle response",
+    "obsolete": false
+  },
+  "Steroid biosynthesis": {
+    "exact": false,
+    "id": "GO:0006694",
+    "label": "steroid biosynthetic process",
+    "obsolete": false
+  },
+  "Synapse organization": {
+    "exact": true,
+    "id": "GO:0050808",
+    "label": "synapse organization",
+    "obsolete": false
+  },
+  "Synaptic vesicle cycle": {
+    "exact": true,
+    "id": "GO:0099504",
+    "label": "synaptic vesicle cycle",
+    "obsolete": false
+  },
+  "T cell activation": {
+    "exact": true,
+    "id": "GO:0042110",
+    "label": "T cell activation",
+    "obsolete": false
+  },
+  "T cell differentiation in thymus": {
+    "exact": true,
+    "id": "GO:0033077",
+    "label": "T cell differentiation in thymus",
+    "obsolete": false
+  },
+  "TNF signaling pathway": {
+    "exact": false,
+    "id": "GO:1903265",
+    "label": "positive regulation of tumor necrosis factor-mediated signaling pathway",
+    "obsolete": false
+  },
+  "Taxis": {
+    "exact": true,
+    "id": "GO:0042330",
+    "label": "taxis",
+    "obsolete": false
+  },
+  "Viral protein interaction with cytokine and cytokine receptor": null,
+  "Wound healing": {
+    "exact": false,
+    "id": "GO:1903690",
+    "label": "negative regulation of wound healing, spreading of epidermal cells",
+    "obsolete": false
+  },
+  "axonal fasciculation": {
+    "exact": true,
+    "id": "GO:0007413",
+    "label": "axonal fasciculation",
+    "obsolete": false
+  },
+  "cAMP signaling pathway": {
+    "exact": false,
+    "id": "GO:0140582",
+    "label": "adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway",
+    "obsolete": false
+  },
+  "cell cycle": {
+    "exact": true,
+    "id": "GO:0007049",
+    "label": "cell cycle",
+    "obsolete": false
+  },
+  "cell cycle checkpoint": {
+    "exact": false,
+    "id": "GO:1902146",
+    "label": "positive regulation of response to cell cycle checkpoint signaling",
+    "obsolete": false
+  },
+  "cell cycle process": {
+    "exact": true,
+    "id": "GO:0022402",
+    "label": "cell cycle process",
+    "obsolete": false
+  },
+  "cell fate commitment": {
+    "exact": true,
+    "id": "GO:0045165",
+    "label": "cell fate commitment",
+    "obsolete": false
+  },
+  "cell migration": {
+    "exact": true,
+    "id": "GO:0016477",
+    "label": "cell migration",
+    "obsolete": false
+  },
+  "cell motility": {
+    "exact": true,
+    "id": "GO:0048870",
+    "label": "cell motility",
+    "obsolete": false
+  },
+  "cell-substrate adhesion": {
+    "exact": true,
+    "id": "GO:0031589",
+    "label": "cell-substrate adhesion",
+    "obsolete": false
+  },
+  "cellular response to DNA damage stimulus": {
+    "exact": false,
+    "id": "GO:0006974",
+    "label": "DNA damage response",
+    "obsolete": false
+  },
+  "cellular response to interferon-gamma": {
+    "exact": false,
+    "id": "GO:0071346",
+    "label": "cellular response to type II interferon",
+    "obsolete": false
+  },
+  "cellular senescence": {
+    "exact": true,
+    "id": "GO:0090398",
+    "label": "cellular senescence",
+    "obsolete": false
+  },
+  "central nervous system neuron differentiation": {
+    "exact": true,
+    "id": "GO:0021953",
+    "label": "central nervous system neuron differentiation",
+    "obsolete": false
+  },
+  "chloride transmembrane transport": {
+    "exact": true,
+    "id": "GO:1902476",
+    "label": "chloride transmembrane transport",
+    "obsolete": false
+  },
+  "chondroitin sulfate biosynthetic process": {
+    "exact": false,
+    "id": "GO:0050650",
+    "label": "chondroitin sulfate proteoglycan biosynthetic process",
+    "obsolete": false
+  },
+  "chromosome organization": {
+    "exact": true,
+    "id": "GO:0051276",
+    "label": "chromosome organization",
+    "obsolete": false
+  },
+  "collagen metabolic process": {
+    "exact": true,
+    "id": "GO:0032963",
+    "label": "collagen metabolic process",
+    "obsolete": false
+  },
+  "cornification": {
+    "exact": true,
+    "id": "GO:0070268",
+    "label": "cornification",
+    "obsolete": false
+  },
+  "defense response": {
+    "exact": true,
+    "id": "GO:0006952",
+    "label": "defense response",
+    "obsolete": false
+  },
+  "double-strand break repair": {
+    "exact": true,
+    "id": "GO:0006302",
+    "label": "double-strand break repair",
+    "obsolete": false
+  },
+  "epidermal cell differentiation": {
+    "exact": true,
+    "id": "GO:0009913",
+    "label": "epidermal cell differentiation",
+    "obsolete": false
+  },
+  "epidermis development": {
+    "exact": true,
+    "id": "GO:0008544",
+    "label": "epidermis development",
+    "obsolete": false
+  },
+  "extracellular matrix organization": {
+    "exact": true,
+    "id": "GO:0030198",
+    "label": "extracellular matrix organization",
+    "obsolete": false
+  },
+  "extracellular structure organization": {
+    "exact": true,
+    "id": "GO:0043062",
+    "label": "extracellular structure organization",
+    "obsolete": false
+  },
+  "fatty acid metabolic process": {
+    "exact": true,
+    "id": "GO:0006631",
+    "label": "fatty acid metabolic process",
+    "obsolete": false
+  },
+  "gamma-aminobutyric acid signaling pathway": {
+    "exact": true,
+    "id": "GO:0007214",
+    "label": "gamma-aminobutyric acid signaling pathway",
+    "obsolete": false
+  },
+  "glial cell development": {
+    "exact": true,
+    "id": "GO:0021782",
+    "label": "glial cell development",
+    "obsolete": false
+  },
+  "glutamate receptor signaling pathway": {
+    "exact": true,
+    "id": "GO:0007215",
+    "label": "glutamate receptor signaling pathway",
+    "obsolete": false
+  },
+  "histone modification": {
+    "exact": true,
+    "id": "SO:0001700",
+    "label": "histone_modification",
+    "obsolete": false
+  },
+  "inorganic anion transport": {
+    "exact": true,
+    "id": "GO:0015698",
+    "label": "inorganic anion transport",
+    "obsolete": false
+  },
+  "interferon-gamma-mediated signaling pathway": {
+    "exact": false,
+    "id": "GO:0060333",
+    "label": "type II interferon-mediated signaling pathway",
+    "obsolete": false
+  },
+  "keratinization": {
+    "exact": true,
+    "id": "GO:0031424",
+    "label": "keratinization",
+    "obsolete": false
+  },
+  "keratinocyte differentiation": {
+    "exact": true,
+    "id": "GO:0030216",
+    "label": "keratinocyte differentiation",
+    "obsolete": false
+  },
+  "localization of cell": {
+    "exact": true,
+    "id": "GO:0051674",
+    "label": "localization of cell",
+    "obsolete": false
+  },
+  "locomotion": {
+    "exact": true,
+    "id": "GO:0040011",
+    "label": "locomotion",
+    "obsolete": false
+  },
+  "mRNA catabolic process": {
+    "exact": true,
+    "id": "GO:0006402",
+    "label": "mRNA catabolic process",
+    "obsolete": false
+  },
+  "mammary gland epithelial cell differentiation": {
+    "exact": true,
+    "id": "GO:0060644",
+    "label": "mammary gland epithelial cell differentiation",
+    "obsolete": false
+  },
+  "melanin biosynthetic process": {
+    "exact": true,
+    "id": "GO:0042438",
+    "label": "melanin biosynthetic process",
+    "obsolete": false
+  },
+  "melanin metabolic process": {
+    "exact": true,
+    "id": "GO:0006582",
+    "label": "melanin metabolic process",
+    "obsolete": false
+  },
+  "mitotic cell cycle process": {
+    "exact": true,
+    "id": "GO:1903047",
+    "label": "mitotic cell cycle process",
+    "obsolete": false
+  },
+  "mitotic nuclear division": {
+    "exact": true,
+    "id": "GO:0140014",
+    "label": "mitotic nuclear division",
+    "obsolete": false
+  },
+  "modulation of chemical synaptic transmission": {
+    "exact": true,
+    "id": "GO:0050804",
+    "label": "modulation of chemical synaptic transmission",
+    "obsolete": false
+  },
+  "modulation of excitatory postsynaptic potential": {
+    "exact": true,
+    "id": "GO:0098815",
+    "label": "modulation of excitatory postsynaptic potential",
+    "obsolete": false
+  },
+  "muscle contraction": {
+    "exact": true,
+    "id": "GO:0006936",
+    "label": "muscle contraction",
+    "obsolete": false
+  },
+  "negative regulation of T cell mediated immunity": {
+    "exact": true,
+    "id": "GO:0002710",
+    "label": "negative regulation of T cell mediated immunity",
+    "obsolete": false
+  },
+  "negative regulation of adaptive immune response": {
+    "exact": true,
+    "id": "GO:0002820",
+    "label": "negative regulation of adaptive immune response",
+    "obsolete": false
+  },
+  "negative regulation of amyloid precursor protein catabolic process": {
+    "exact": true,
+    "id": "GO:1902992",
+    "label": "negative regulation of amyloid precursor protein catabolic process",
+    "obsolete": false
+  },
+  "negative regulation of amyloid-beta formation": {
+    "exact": true,
+    "id": "GO:1902430",
+    "label": "negative regulation of amyloid-beta formation",
+    "obsolete": false
+  },
+  "negative regulation of cell communication": {
+    "exact": true,
+    "id": "GO:0010648",
+    "label": "negative regulation of cell communication",
+    "obsolete": false
+  },
+  "negative regulation of cytokine production": {
+    "exact": true,
+    "id": "GO:0001818",
+    "label": "negative regulation of cytokine production",
+    "obsolete": false
+  },
+  "negative regulation of kinase activity": {
+    "exact": true,
+    "id": "GO:0033673",
+    "label": "negative regulation of kinase activity",
+    "obsolete": false
+  },
+  "neuron cell-cell adhesion": {
+    "exact": true,
+    "id": "GO:0007158",
+    "label": "neuron cell-cell adhesion",
+    "obsolete": false
+  },
+  "neuron projection fasciculation": {
+    "exact": true,
+    "id": "GO:0106030",
+    "label": "neuron projection fasciculation",
+    "obsolete": false
+  },
+  "neutrophil activation involved in immune response": {
+    "exact": true,
+    "id": "GO:0002283",
+    "label": "neutrophil activation involved in immune response",
+    "obsolete": false
+  },
+  "nuclear division": {
+    "exact": true,
+    "id": "GO:0000280",
+    "label": "nuclear division",
+    "obsolete": false
+  },
+  "nucleotide-excision repair, DNA damage recognition": {
+    "exact": true,
+    "id": "GO:0000715",
+    "label": "nucleotide-excision repair, DNA damage recognition",
+    "obsolete": false
+  },
+  "organelle assembly": {
+    "exact": true,
+    "id": "GO:0070925",
+    "label": "organelle assembly",
+    "obsolete": false
+  },
+  "organic acid catabolic process": {
+    "exact": false,
+    "id": "GO:0033611",
+    "label": "oxalate catabolic process",
+    "obsolete": false
+  },
+  "pigment biosynthetic process": {
+    "exact": true,
+    "id": "GO:0046148",
+    "label": "pigment biosynthetic process",
+    "obsolete": false
+  },
+  "pigment metabolic process": {
+    "exact": true,
+    "id": "GO:0042440",
+    "label": "pigment metabolic process",
+    "obsolete": false
+  },
+  "positive regulation of NF-kappaB transcription factor activity": {
+    "exact": false,
+    "id": "GO:0006983",
+    "label": "ER overload response",
+    "obsolete": false
+  },
+  "positive regulation of cGMP biosynthetic process": null,
+  "positive regulation of cell aging": {
+    "exact": false,
+    "id": "GO:0090372",
+    "label": "positive regulation of glycerol transport",
+    "obsolete": false
+  },
+  "positive regulation of cell killing": {
+    "exact": true,
+    "id": "GO:0031343",
+    "label": "positive regulation of cell killing",
+    "obsolete": false
+  },
+  "positive regulation of cell migration": {
+    "exact": true,
+    "id": "GO:0030335",
+    "label": "positive regulation of cell migration",
+    "obsolete": false
+  },
+  "positive regulation of cell motility": {
+    "exact": true,
+    "id": "GO:2000147",
+    "label": "positive regulation of cell motility",
+    "obsolete": false
+  },
+  "positive regulation of cellular component movement": null,
+  "positive regulation of cellular senescence": {
+    "exact": true,
+    "id": "GO:2000774",
+    "label": "positive regulation of cellular senescence",
+    "obsolete": false
+  },
+  "positive regulation of endothelial cell migration": {
+    "exact": true,
+    "id": "GO:0010595",
+    "label": "positive regulation of endothelial cell migration",
+    "obsolete": false
+  },
+  "positive regulation of glutamate receptor signaling pathway": {
+    "exact": true,
+    "id": "GO:1900451",
+    "label": "positive regulation of glutamate receptor signaling pathway",
+    "obsolete": false
+  },
+  "positive regulation of kinase activity": {
+    "exact": true,
+    "id": "GO:0033674",
+    "label": "positive regulation of kinase activity",
+    "obsolete": false
+  },
+  "positive regulation of locomotion": {
+    "exact": true,
+    "id": "GO:0040017",
+    "label": "positive regulation of locomotion",
+    "obsolete": false
+  },
+  "positive regulation of multicellular organismal process": {
+    "exact": true,
+    "id": "GO:0051240",
+    "label": "positive regulation of multicellular organismal process",
+    "obsolete": false
+  },
+  "postsynaptic membrane assembly": {
+    "exact": true,
+    "id": "GO:0097104",
+    "label": "postsynaptic membrane assembly",
+    "obsolete": false
+  },
+  "postsynaptic membrane organization": {
+    "exact": true,
+    "id": "GO:0001941",
+    "label": "postsynaptic membrane organization",
+    "obsolete": false
+  },
+  "proteasomal protein catabolic process": {
+    "exact": true,
+    "id": "GO:0010498",
+    "label": "proteasomal protein catabolic process",
+    "obsolete": false
+  },
+  "protein polyubiquitination": {
+    "exact": true,
+    "id": "GO:0000209",
+    "label": "protein polyubiquitination",
+    "obsolete": false
+  },
+  "regulation of AMPA receptor activiey": null,
+  "regulation of T cell mediated immunity": {
+    "exact": true,
+    "id": "GO:0002709",
+    "label": "regulation of T cell mediated immunity",
+    "obsolete": false
+  },
+  "regulation of adaptive immune response": {
+    "exact": true,
+    "id": "GO:0002819",
+    "label": "regulation of adaptive immune response",
+    "obsolete": false
+  },
+  "regulation of amyloid-beta formation": {
+    "exact": true,
+    "id": "GO:1902003",
+    "label": "regulation of amyloid-beta formation",
+    "obsolete": false
+  },
+  "regulation of antigen receptor-mediated signaling pathway": {
+    "exact": true,
+    "id": "GO:0050854",
+    "label": "regulation of antigen receptor-mediated signaling pathway",
+    "obsolete": false
+  },
+  "regulation of cell aging": {
+    "exact": false,
+    "id": "GO:0010184",
+    "label": "cytokinin transport",
+    "obsolete": false
+  },
+  "regulation of cell cycle process": {
+    "exact": true,
+    "id": "GO:0010564",
+    "label": "regulation of cell cycle process",
+    "obsolete": false
+  },
+  "regulation of cell migration": {
+    "exact": true,
+    "id": "GO:0030334",
+    "label": "regulation of cell migration",
+    "obsolete": false
+  },
+  "regulation of cell motility": {
+    "exact": true,
+    "id": "GO:2000145",
+    "label": "regulation of cell motility",
+    "obsolete": false
+  },
+  "regulation of cellular component movement": {
+    "exact": false,
+    "id": "CL:0000192",
+    "label": "smooth muscle cell",
+    "obsolete": false
+  },
+  "regulation of cellular localization": {
+    "exact": true,
+    "id": "GO:0060341",
+    "label": "regulation of cellular localization",
+    "obsolete": false
+  },
+  "regulation of cellular senescence": {
+    "exact": true,
+    "id": "GO:2000772",
+    "label": "regulation of cellular senescence",
+    "obsolete": false
+  },
+  "regulation of chromosome organization": {
+    "exact": true,
+    "id": "GO:0033044",
+    "label": "regulation of chromosome organization",
+    "obsolete": false
+  },
+  "regulation of ion transmembrane transport": {
+    "exact": false,
+    "id": "GO:0034767",
+    "label": "positive regulation of monoatomic ion transmembrane transport",
+    "obsolete": false
+  },
+  "regulation of locomotion": {
+    "exact": true,
+    "id": "GO:0040012",
+    "label": "regulation of locomotion",
+    "obsolete": false
+  },
+  "regulation of membrane potential": {
+    "exact": true,
+    "id": "GO:0042391",
+    "label": "regulation of membrane potential",
+    "obsolete": false
+  },
+  "regulation of postsynaptic membrane potential": {
+    "exact": true,
+    "id": "GO:0060078",
+    "label": "regulation of postsynaptic membrane potential",
+    "obsolete": false
+  },
+  "regulation of trans-synaptic signaling": {
+    "exact": true,
+    "id": "GO:0099177",
+    "label": "regulation of trans-synaptic signaling",
+    "obsolete": false
+  },
+  "replicative senescence": {
+    "exact": true,
+    "id": "GO:0090399",
+    "label": "replicative senescence",
+    "obsolete": false
+  },
+  "response to antibiotic": {
+    "exact": true,
+    "id": "GO:0046677",
+    "label": "response to antibiotic",
+    "obsolete": false
+  },
+  "response to extremal stimulus": {
+    "exact": false,
+    "id": "GO:0044742",
+    "label": "venom-mediated increase of sensory perception of pain",
+    "obsolete": false
+  },
+  "response to hydrogen peroxide": {
+    "exact": true,
+    "id": "GO:0042542",
+    "label": "response to hydrogen peroxide",
+    "obsolete": false
+  },
+  "response to interferon-gamma": {
+    "exact": false,
+    "id": "GO:0034341",
+    "label": "response to type II interferon",
+    "obsolete": false
+  },
+  "response to reactive oxygen species": {
+    "exact": true,
+    "id": "GO:0000302",
+    "label": "response to reactive oxygen species",
+    "obsolete": false
+  },
+  "response to stress": {
+    "exact": true,
+    "id": "GO:0006950",
+    "label": "response to stress",
+    "obsolete": false
+  },
+  "response to type I interferon": {
+    "exact": true,
+    "id": "GO:0034340",
+    "label": "response to type I interferon",
+    "obsolete": false
+  },
+  "secondary metabolic process": {
+    "exact": true,
+    "id": "GO:0019748",
+    "label": "secondary metabolic process",
+    "obsolete": false
+  },
+  "synapse assembly": {
+    "exact": true,
+    "id": "GO:0007416",
+    "label": "synapse assembly",
+    "obsolete": false
+  },
+  "type I interferon signaling pathway": {
+    "exact": false,
+    "id": "GO:0038196",
+    "label": "type III interferon-mediated signaling pathway",
+    "obsolete": false
+  }
+}
