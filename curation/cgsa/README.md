@@ -21,17 +21,24 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Fifteen DEG modules across ten studies, spanning melanoma, glioblastoma,
+Twenty-one DEG modules across twelve studies, spanning melanoma, glioblastoma,
 diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, pancreatic cancer,
-osteoporosis, and squamous cell carcinoma, in both human and mouse.
+osteoporosis, squamous cell carcinoma, rheumatoid arthritis, brain, and
+Mycobacterium avium infection, in both human and mouse — covering antigen
+presentation, synaptic organization, chromatin/nucleosome, muscle contraction,
+lipid/steroid metabolism, and Rho-GTPase actin remodeling.
 
-> Many of these were drafted with **`evals/cgsa/draft/draft_cgsa.py`**, which
+> Most of these were drafted with **`evals/cgsa/draft/draft_cgsa.py`**, which
 > does the deterministic gene-list work — real genesets-rs enrichment against
 > species-matched GOA, so each candidate GO term arrives with its true carrier
 > genes and stats, plus a GT/membership mismatch flag — and leaves the GO-term
 > `category`/`insight` and context grounding to the curator. See
-> `evals/cgsa/draft/README.md`. The osteoporosis (ossification/BMP) and SCC
-> (actin/migration + angiogenesis) sets below were curated this way end-to-end.
+> `evals/cgsa/draft/README.md`. All 71 remaining benchmark sets have been drafted
+> and triaged in **`evals/cgsa/draft/triage.tsv`** (53 curatable, ranked by
+> informative-term richness; empty/thin sets flagged for skip). The drafter also
+> caught a benchmark mislabel: PMC9205785-2, ground-truthed as a "T cell receptor
+> complex" set, is actually a striated-**muscle** signature (sarcomere/myofibril)
+> — curated to the biology its membership supports, with the mismatch documented.
 
 **PMC10202813 melanoma modules** — one study whose DEGs the benchmark splits into
 modules, linked as `SERIES:CGSA_PMC10202813_MODULES` to show that distinct modules
