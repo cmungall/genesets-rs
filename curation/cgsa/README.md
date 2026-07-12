@@ -21,9 +21,17 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Thirteen DEG modules across eight studies, spanning melanoma, glioblastoma,
-diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, and pancreatic cancer,
-in both human and mouse.
+Fifteen DEG modules across ten studies, spanning melanoma, glioblastoma,
+diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, pancreatic cancer,
+osteoporosis, and squamous cell carcinoma, in both human and mouse.
+
+> Many of these were drafted with **`evals/cgsa/draft/draft_cgsa.py`**, which
+> does the deterministic gene-list work — real genesets-rs enrichment against
+> species-matched GOA, so each candidate GO term arrives with its true carrier
+> genes and stats, plus a GT/membership mismatch flag — and leaves the GO-term
+> `category`/`insight` and context grounding to the curator. See
+> `evals/cgsa/draft/README.md`. The osteoporosis (ossification/BMP) and SCC
+> (actin/migration + angiogenesis) sets below were curated this way end-to-end.
 
 **PMC10202813 melanoma modules** — one study whose DEGs the benchmark splits into
 modules, linked as `SERIES:CGSA_PMC10202813_MODULES` to show that distinct modules
@@ -51,6 +59,8 @@ of one study resolve to **contrasting** GO interpretations:
 | `CGSA_PMC8831505_1_TFH_HYPOXIA` | hypoxia + glycolysis | HIF/glycolytic block (Slc2a1/Ldha/Hk2/Pdk1/Bnip3) in Tfh cells |
 | `CGSA_PMC10761883_2_DIABETIC_CM_HIF` | hypoxia/HIF + PPAR/lipid | HIF targets (Bnip3/Adm/Angptl4/Vegfa) + glycolysis; KEGG "HIF-1 signaling" → GO response to hypoxia |
 | `CGSA_PMC10156590_2_PANC_GOLGI` | ER–Golgi vesicle transport | COPI coatomer (Copb1/Copb2/Copg1) + Arf1/Rab1a; pancreatic cancer |
+| `CGSA_PMC8983726_1_OSTEOPOROSIS_BONE` | ossification / osteoblast differentiation | Alpl/Bmp2/Bmp4/Msx2/Satb2; osteoporosis (drafted semi-automatically) |
+| `CGSA_PMC9750880_1_SCC_MIGRATION` | actin/migration + angiogenesis | Abl2/Arpc1b/Bcar1/Fermt2 + Col4a1/Ackr3; squamous cell carcinoma (drafted semi-automatically) |
 
 **PMC10772820 NASH-liver modules** — one mouse steatohepatitis study split into
 four KEGG modules, linked as `SERIES:CGSA_PMC10772820_MODULES`:
