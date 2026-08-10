@@ -31,14 +31,18 @@ a real evaluation.
    proliferation regulators; Manguso 2017 in-vivo melanoma immunotherapy screen),
    plus one short curated mechanism panel (Bersuker/Doll 2019 FSP1-CoQ ferroptosis
    suppressors). All HGNC-normalized into `curation/genesets/lit_members.gmt` and
-   folded into `queries.gmt`. Total evaluable: **128** (126 producing
+   folded into `queries.gmt`. Total evaluable: **130** (128 producing
    enrichment) — including 44 MSigDB C8 single-cell cell-type signatures
    (membership fetched from mygeneset.info). The two interferon sets added with
    the gene-set-informed factor-model docs are here too: the MSigDB pathway set
    `REACTOME_INTERFERON_SIGNALING` (fetched from mygeneset.info) and the six-gene
    `TYPE_I_INTERFERON_SCORE` (AGS-6 clinical panel, captured into
    `lit_members.gmt` — one of the few `LIT:DISEASE_ACTIVITY` sets with an explicit
-   captured membership rather than prose markers).
+   captured membership rather than prose markers). The `LIT:PERTURBATION` pair
+   `RFX6_KNOCKDOWN_BETA_CELL_UP` / `_DN` (Walker et al. Nature 2023
+   Supplementary Data 2a, shRFX6 vs scramble in primary human beta cell nuclei)
+   is likewise captured into `lit_members.gmt`, at 1,272 and 1,397 members the
+   two largest queries in the eval.
 
 2. **Annotation variants** —
    ```bash
@@ -83,14 +87,20 @@ output (see "Guardrail").
 - **`unique_vs_baseline`** — supported-core terms a variant recovers that `all`
   does not.
 
-## Headline result (2026, 128 evaluable / 126 scored sets, GOA `goa_human` current)
+## Headline result (2026, 130 evaluable / 128 scored sets, GOA `goa_human` current)
 
 | variant | recall_core | gap_recovered (disagreements) |
 |---|---|---|
-| all | 0.561 (221/394) | 7 |
-| no_contributes_to | 0.558 (220/394) | 7 |
-| iba_iea | 0.437 (172/394) | 4 |
-| iba | 0.338 (133/394) | 3 |
+| all | 0.565 (227/402) | 7 |
+| no_contributes_to | 0.562 (226/402) | 7 |
+| iba_iea | 0.440 (177/402) | 4 |
+| iba | 0.341 (137/402) | 3 |
+
+Refreshed when the RFX6-knockdown pair was added. Re-scoring the same run
+against the previous 128-set gold reproduces the earlier numbers exactly
+(0.561 / 0.558 / 0.437 / 0.338 on 221, 220, 172, 133 of 394 core terms, same
+gap_recovered counts), so the movement above is the eight new core terms, not
+GOA drift.
 
 1. **IBA carries ~2/3 of the core biology full GOA does** (recall_core 0.34 vs
    0.56); IEA recovers much of the difference (iba_iea 0.44).
@@ -115,15 +125,15 @@ With the corpus-wide `insight` tags, recall splits by whether a term is
 `confirmatory` (restates the set's construction) or `mechanistic` (a non-obvious
 process — a genuine enrichment insight). Over the evaluable sets:
 
-| variant | recall_confirm (n=640) | recall_mechan (n=81) |
+| variant | recall_confirm (n=647) | recall_mechan (n=85) |
 |---|---|---|
-| all | 0.569 | 0.333 |
-| no_contributes_to | 0.567 | 0.333 |
-| iba_iea | 0.433 | 0.222 |
-| iba | 0.319 | 0.210 |
+| all | 0.569 | 0.353 |
+| no_contributes_to | 0.567 | 0.353 |
+| iba_iea | 0.434 | 0.247 |
+| iba | 0.320 | 0.224 |
 
 **Mechanistic insight is ~2x harder to recover than confirmatory biology** —
-even all-GOA recovers only ~32% of mechanistic terms vs ~62% of confirmatory
+even all-GOA recovers only ~35% of mechanistic terms vs ~57% of confirmatory
 ones. Standard enrichment surfaces the obvious and largely misses the
 non-obvious convergent mechanisms the curators flagged (often the
 `annotation_gap` ones).
@@ -191,6 +201,45 @@ So the gold standard now records three orthogonal failure modes for mechanistic
 recall — **diffuse** (GWAS), **sign-blind** (directional regulation), and
 **under-powered** (tiny panels) — only the first of which is about annotation
 depth. The single recoverable family is the tight physical complex.
+
+### A fourth failure mode — direction-of-change, from the RFX6 knockdown pair
+
+The `LIT:PERTURBATION` pair `RFX6_KNOCKDOWN_BETA_CELL_UP` / `_DN` (Walker et al.
+Nature 2023) adds a case the screens do not cover: the *arms of one perturbation
+disagree with the phenotype*, and enrichment can only see one of them. Under
+all-GOA:
+
+- **DN — 5/5 core recovered.** Proteasome-mediated ubiquitin-dependent catabolism
+  (`GO:0043161`), proteasome complex (`GO:0000502`), macroautophagy
+  (`GO:0016236`), vesicle-mediated transport (`GO:0016192`) and cilium
+  (`GO:0005929`) all clear Bonferroni. This is the tight-complex pattern again —
+  25 proteasome subunits, 10 ATG/autophagy genes and 13 cilium/IFT genes are
+  literally in the set. Notably the strongest of these (the ubiquitin-proteasome
+  arm, LogP -39 in the paper's own Metascape output) is *not discussed anywhere
+  in the paper*; the curated interpretation records it, and enrichment finds it.
+- **UP — 1/3 core recovered.** The synaptic/neuronal module (`GO:0099536`) is
+  recovered, but **insulin secretion** (`GO:0030073`) and **secretory granule**
+  (`GO:0030141`) are missed, even though ABCC8, SLC30A8, SLC2A2, G6PC2, CACNA1D,
+  PCSK1/2, CPE, IAPP and MAFA are all members. Thirteen well-annotated genes in a
+  1,272-gene query do not clear Bonferroni — under-powered, as with the
+  ferroptosis panel, but here the missed term is the *whole point*: RFX6
+  knockdown blunts insulin secretion while these transcripts go **up**, so the
+  lesion is post-transcriptional. Enrichment sees the neuronal drift and misses
+  the paradox.
+- **The membership_gap prediction holds.** `insulin secretion` is curated on the
+  DN pole as `membership_gap` — the naively expected arm, whose genes are in the
+  *other* pole — and no variant recovers it there, confirming the curator call
+  rather than contradicting it.
+- **The precision items fire as predicted.** `cell cycle` (`GO:0007049`,
+  `nonspecific` on DN, driven by proteasome subunits inside Reactome's APC/C and
+  SCF degradation steps) and `brain development` (`GO:0007420`,
+  `marker_driven_plausible` on UP, driven by the de-repressed neuronal
+  repertoire) are both returned by all-GOA — the two over-calls the curator
+  flagged in advance.
+
+The pair also tests the series machinery: the two poles of one experiment
+resolve to genuinely contrasting GO interpretations, with catabolic/trafficking
+machinery down and the neuroendocrine secretory/synaptic repertoire up.
 
 ### One program at three membership granularities — the interferon gradient
 
