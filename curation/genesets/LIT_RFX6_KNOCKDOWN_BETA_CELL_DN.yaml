@@ -5,8 +5,8 @@ taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
 direction: DN
-series: SERIES:RFX6_KNOCKDOWN_BETA_CELL
-series_role: knockdown_down
+series: SERIES:RFX6_KNOCKDOWN_ISLET_CELL
+series_role: beta_down
 n_genes: 1397
 description: >-
   Literature-defined genetic-perturbation signature: the genes DOWNregulated in
@@ -44,7 +44,7 @@ description: >-
   reports membrane trafficking, autophagy and ciliary pathways; the strongest
   signal in its Metascape output (Supplementary Data 2b), which the paper does
   not discuss, is the ubiquitin-proteasome system (LogP -39 for proteolysis
-  involved in cellular protein catabolic process), carried by 26 proteasome
+  involved in cellular protein catabolic process), carried by 25 proteasome
   subunits plus SCF/APC ubiquitin-ligase components. The naively EXPECTED arm —
   the insulin-secretion machinery going down alongside the blunted secretion
   phenotype — is NOT here: those transcripts are in the UP arm

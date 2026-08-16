@@ -5,8 +5,8 @@ taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
 direction: UP
-series: SERIES:RFX6_KNOCKDOWN_BETA_CELL
-series_role: knockdown_up
+series: SERIES:RFX6_KNOCKDOWN_ISLET_CELL
+series_role: beta_up
 n_genes: 1272
 description: >-
   Literature-defined genetic-perturbation signature: the genes UPregulated in
@@ -125,17 +125,44 @@ associations:
           that sentence is not attached as a snippet because only the abstract is
           machine-retrievable for this reference (the cached record is
           content_type abstract_only).
+      - reference: PMID:38064570
+        reference_title: "RFX6 Maintains Gene Expression and Function of Adult Human Islet alpha-Cells."
+        supports: REFUTE
+        evidence_source: IN_VITRO
+        explanation: >-
+          Recorded as a genuine DISAGREEMENT in the literature about the sign of
+          this arm, not as support. A companion study of the same perturbation in
+          the same tissue (GIPZ lentiviral shRNA against RFX6 in primary human
+          pseudoislets, FACS-purified cells, bulk RNA-seq, DESeq2) reports the
+          OPPOSITE direction for the secretory machinery. In its alpha cells,
+          SLC30A8 falls (log2FC -0.79) along with UCN3, CHGA, PCSK2, CPE and the
+          CACNA1A/CACNA1C/KCNA5 channels — see
+          LIT:RFX6_KNOCKDOWN_ALPHA_CELL_DN. In its beta cells it reports 155
+          DEGs in which ABCC8 and GCK are DOWNregulated, described as
+          corroborating prior mouse work showing Abcc8 and Gck are RFX6-regulated
+          — whereas in this set ABCC8 is +0.81 and SLC30A8 is +1.06. The two
+          studies differ in vector (adenoviral versus lentiviral), in assay
+          (single-nucleus multiome of whole pseudoislets versus bulk RNA-seq of
+          FACS-purified cells), in threshold (Padj<0.01 versus <0.1) and in
+          knockdown efficiency, so the discrepancy has methodological
+          explanations and is not adjudicated here. No verbatim snippet: only the
+          abstract is machine-retrievable for this reference.
     curator_note: >-
-      Scored mechanistic, and the reason this pole is worth curating. Nothing
+      Scored mechanistic, and the reason this pole is worth curating: nothing
       about "RFX6 knockdown reduces insulin secretion" entails that the secretory
-      and identity transcripts RISE; the naive expectation is the opposite, and
-      that expectation is recorded as a membership_gap on the DN pole. The
-      coherent reading of the pair is a post-transcriptional lesion: secretory
-      cargo genes and MAFA are transcriptionally intact or elevated and insulin
-      content accumulates, while the trafficking, autophagy, ciliary and
-      proteasomal machinery that would move and turn over that cargo is depleted
-      in the DN arm. cell_type_specific: insulin secretion is executed by the
-      beta cell alone.
+      and identity transcripts RISE, and the naive expectation — that they fall —
+      is recorded as a membership_gap on the DN pole. One coherent reading of the
+      pair is a post-transcriptional lesion, with secretory cargo genes and MAFA
+      transcriptionally intact or elevated and insulin content accumulating,
+      while the trafficking, autophagy, ciliary and proteasomal machinery that
+      would move and turn over that cargo is depleted in the DN arm. BUT THAT
+      READING IS CONTESTED: the REFUTE evidence above records a companion study
+      reporting the opposite sign for ABCC8, GCK and SLC30A8 in the same tissue
+      and perturbation. The category stays core_process — these genes are in this
+      set and this term is what they do — and the direction stays as published,
+      but the mechanistic interpretation is explicitly held open rather than
+      asserted. cell_type_specific: insulin secretion is executed by the beta
+      cell alone.
   - term:
       id: GO:0030141
       label: secretory granule
