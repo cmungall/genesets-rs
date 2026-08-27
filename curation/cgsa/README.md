@@ -21,11 +21,12 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Twenty-six DEG modules across seventeen studies, spanning melanoma, glioblastoma,
+Twenty-eight DEG modules across nineteen studies, spanning melanoma, glioblastoma,
 diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, pancreatic cancer,
 osteoporosis, squamous cell carcinoma, rheumatoid arthritis, brain,
 Mycobacterium avium infection, leukemia, Alzheimer disease, nasopharyngeal
-carcinoma, and Williams-Beuren syndrome, in both human and mouse — covering
+carcinoma, Williams-Beuren syndrome, Parkinson disease, and tumor-associated
+macrophages, in both human and mouse — covering
 antigen presentation, synaptic organization, chromatin/nucleosome, muscle
 contraction, lipid/steroid metabolism, Rho-GTPase actin remodeling, nucleolar
 ribosome biogenesis, and elastin/basement-membrane matrix. Four studies are
