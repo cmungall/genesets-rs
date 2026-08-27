@@ -21,17 +21,20 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Twenty-eight DEG modules across nineteen studies, spanning melanoma, glioblastoma,
+Thirty-two DEG modules across twenty studies, spanning melanoma, glioblastoma,
 diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, pancreatic cancer,
 osteoporosis, squamous cell carcinoma, rheumatoid arthritis, brain,
 Mycobacterium avium infection, leukemia, Alzheimer disease, nasopharyngeal
-carcinoma, Williams-Beuren syndrome, Parkinson disease, and tumor-associated
-macrophages, in both human and mouse — covering
-antigen presentation, synaptic organization, chromatin/nucleosome, muscle
-contraction, lipid/steroid metabolism, Rho-GTPase actin remodeling, nucleolar
-ribosome biogenesis, and elastin/basement-membrane matrix. Four studies are
-represented as multi-module series (melanoma, glioblastoma, NASH, diabetic
-cardiomyopathy).
+carcinoma, Williams-Beuren syndrome, Parkinson disease, tumor-associated
+macrophages, intervertebral-disc (nucleus pulposus), and neural-stem-cell
+development, in both human and mouse — covering antigen presentation, synaptic
+organization, chromatin/nucleosome, muscle contraction, lipid/steroid metabolism,
+Rho-GTPase actin remodeling, nucleolar ribosome biogenesis, elastin/basement-
+membrane matrix, ciliary axoneme, centrosome/microtubule, and mitotic
+chromosome segregation. Four studies are represented as multi-module series
+(melanoma, glioblastoma, NASH, diabetic cardiomyopathy), and several studies now
+have complementary modules curated (Parkinson synapse + cilia; pancreatic Golgi +
+Rho-actin + chromosome).
 
 Instructive "what the membership actually supports" calls recur: the NASH
 ribosome module records KEGG neurodegeneration pathways as `false_association`
