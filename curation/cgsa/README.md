@@ -21,12 +21,25 @@ obsolescence, biology-first `category`, orthogonal `recovery_status`, and
 
 ## Current sets
 
-Twenty-one DEG modules across twelve studies, spanning melanoma, glioblastoma,
+Twenty-six DEG modules across seventeen studies, spanning melanoma, glioblastoma,
 diabetic cardiomyopathy, Tfh-cell regulation, NASH liver, pancreatic cancer,
-osteoporosis, squamous cell carcinoma, rheumatoid arthritis, brain, and
-Mycobacterium avium infection, in both human and mouse — covering antigen
-presentation, synaptic organization, chromatin/nucleosome, muscle contraction,
-lipid/steroid metabolism, and Rho-GTPase actin remodeling.
+osteoporosis, squamous cell carcinoma, rheumatoid arthritis, brain,
+Mycobacterium avium infection, leukemia, Alzheimer disease, nasopharyngeal
+carcinoma, and Williams-Beuren syndrome, in both human and mouse — covering
+antigen presentation, synaptic organization, chromatin/nucleosome, muscle
+contraction, lipid/steroid metabolism, Rho-GTPase actin remodeling, nucleolar
+ribosome biogenesis, and elastin/basement-membrane matrix. Four studies are
+represented as multi-module series (melanoma, glioblastoma, NASH, diabetic
+cardiomyopathy).
+
+Instructive "what the membership actually supports" calls recur: the NASH
+ribosome module records KEGG neurodegeneration pathways as `false_association`
+artifacts; the glioblastoma-stress module downgrades a broad "response to stress"
+ground truth to `nonspecific`; the Williams-Beuren module curates the
+elastin/ECM signal (disease-relevant) and marks a strong olfactory-receptor
+enrichment `nonspecific` as a gene-family artifact; and the rheumatoid-arthritis
+"T cell" set is curated to the striated-muscle biology its membership carries
+(documented mismatch, see issue #9).
 
 > Most of these were drafted with **`evals/cgsa/draft/draft_cgsa.py`**, which
 > does the deterministic gene-list work — real genesets-rs enrichment against

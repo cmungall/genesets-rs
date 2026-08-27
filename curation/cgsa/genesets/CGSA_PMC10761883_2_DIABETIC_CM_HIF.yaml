@@ -5,6 +5,8 @@ taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
 direction: NA
+series: SERIES:CGSA_PMC10761883_MODULES
+series_role: hif_glycolysis
 n_genes: 299
 description: >-
   DEG module PMC10761883-2 from the cGSA benchmark (Wang et al., Bioinformatics
