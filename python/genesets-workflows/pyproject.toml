@@ -49,6 +49,9 @@ curation = [
   "linkml-term-validator>=0.4.0",
   "linkml-reference-validator>=0.2",
   "oaklib>=0.6",
+  # oaklib's eutils import chain still imports pkg_resources, which setuptools
+  # >= 81 removed; keep it available so `curate validate` doesn't hard-fail.
+  "setuptools<81",
 ]
 
 [project.scripts]
